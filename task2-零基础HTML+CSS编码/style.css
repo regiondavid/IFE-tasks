@@ -1,0 +1,138 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+body{
+	background-color: rgba(218,218,218,0.2);
+}
+.banner{
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+}
+.logo{
+	width: 200px;
+	height: 100px;
+}
+.banner ul{
+	height: 100px;
+	/*display: inline;*/
+	float: right;
+}
+.banner ul li{
+	list-style: none;
+	/*float: left;*/
+	display: inline;
+	margin-right: 25px;
+}
+.banner ul li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 100px;
+	font-size: 30px;
+}
+.banner ul li a:hover{
+	color: #767676
+}
+.page{
+	background-color: #fff;
+	border: 2px solid #898989;
+	/*margin-bottom: 50px;*/
+	width: 90%;
+	margin: 0px auto 50px auto;
+	box-shadow: 2px 2px 2px #A09F9F;
+}
+.page:first-child{
+	margin-top: 30px;
+}
+.page > h2{
+	margin: 10px 0 10px 20px;
+	line-height: 50px;
+}
+.page p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.text{
+	text-indent: 2em;
+}
+.page li{
+	font-weight: bolder;
+	margin: 5px 0 5px 50px;
+}
+.page2 li{
+	list-style-type: none;
+}
+.imgShow{
+	width: 300px;
+	height: 300px;
+	border: 2px solid #000;
+	margin: 20px 0 10px 50px;
+}
+.imgShow img{
+	width: 200px;
+	height: 250px;
+	margin: auto;
+	display: block;
+}
+.imgShow p{
+	text-align: center;
+}
+.page table{
+	width: 100%;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	background-color: #000;
+	color: #fff;
+	border: 1px #fff solid;
+}
+td{
+	border: #000 solid 1px;
+}
+tr:last-child td{
+	background-color: #DEDBDB;
+	border: none;
+	font-weight: bold;
+}
+.longTh{
+	width: 40%;
+}
+.shortTh{
+	width: 20%;
+}
+.page:last-child h2{
+	border-left: 5px #C5C5C5 solid;
+	padding-left: 10px; 
+}
+.inputArea{
+	margin-left: 300px;
+}
+.page:last-child p{
+	color: #C2C2C2;
+	font-size: 14px;
+	text-indent: 10em;
+}
+.page:last-child input{
+	margin-bottom: 5px;
+}
+button{
+	width: 90%;
+	height: 50px;
+	font-size: 24px;
+	color: #fff;
+	background-color: #5C35F6;
+	border-radius: 30px;
+	margin-left: 5%;
+}
+.footing{
+	width: 100%;
+	height: 100px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	line-height: 100px;
+}
