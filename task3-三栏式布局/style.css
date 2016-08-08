@@ -1,0 +1,48 @@
+*{
+	padding: 0 0;
+	margin: 0 0;
+}
+.box{
+	background-color: #DEDEDE;
+	margin: 20px;
+	padding: 20px;
+	position: absolute;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.left{
+	width: 200px;
+	background-color: #fff;
+	margin-right: 20px;
+	position: relative;
+}
+.right{
+	width: 120px;
+	height: 500px;
+	background-color: #9E8EFF;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+.middle{
+	background-color: #fff;
+	height: 300px;
+	overflow: hidden;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+}
+.personal{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	clear: both;
+}
+.left p{
+	display: inline;
+	position: absolute;
+	top: 0;
+}
