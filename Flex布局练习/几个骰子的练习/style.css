@@ -1,0 +1,124 @@
+body{
+	background-color: #464646;
+}
+.face{
+	margin: 16px;
+  	padding: 4px;
+ 	 
+ 	background-color: #e7e7e7;
+ 	width: 104px;
+	height: 104px;
+ 	object-fit: contain;
+  
+ 	box-shadow:
+	    inset 0 5px white, 
+	    inset 0 -5px #bbb,
+	    inset 5px 0 #d7d7d7, 
+	    inset -5px 0 #d7d7d7;
+  
+  	border-radius: 10%;
+	background-color: #fff;
+}
+.box1{
+	/*display: -webkit-flex;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.box2{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.item{
+	width: 24px;
+	height: 24px;
+	background-color: #333;
+	border-radius: 50%;
+}
+.box3{
+	display: flex;
+	justify-content: space-between;
+
+}
+.box3 .item:nth-child(2){
+	align-self: flex-end;
+}
+.box4{
+	display: flex;
+	justify-content: space-around;
+}
+.box4 .item:nth-child(2){
+	align-self: center;
+}
+.box4 .item:nth-child(3){
+	align-self: flex-end;
+}
+.box5{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: space-between;
+}
+.row{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-around;
+}
+.box5 > .item{
+	align-self: flex-end;
+}
+.box6{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.column1{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.box7{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.column2{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.box8{
+	display: flex;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+.column3{
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.box9{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.column4{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-around;
+}
+.column4:nth-child(3){
+	justify-content: space-between;
+}
+.finish{
+	display: flex;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+.column5{
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 100%;
+}
