@@ -122,3 +122,79 @@ body{
 	justify-content: space-around;
 	flex-basis: 100%;
 }
+/*网格布局*/
+.Grid{
+	display: flex;
+	/*align-content: space-around;*/
+}
+.Grid-cell{
+	flex: 1;
+	background-color: #F55252;
+}
+.u-1of1{
+	flex: 0 0 100%;
+}
+.u-1of2{
+	flex: 0 0 50%;
+}
+.Grid-cell.u-1of3{
+	flex: 0 0 33.3333%;
+}
+.Grid-cell.u-1of4{
+	flex: 0 0 25%;
+}
+.holly{
+	display: flex;
+	flex-direction: column;
+	background-color: #7A92FF;
+	min-height: 100vh;
+}
+#header{
+	background-color: #AAF7A3;
+	flex: 1;
+}
+#body{
+	background-color: #F1E43E;
+	flex: 1;
+	display: flex;
+}
+#footer{
+	background-color: #FF9974;
+	flex: 1;
+}
+#left{
+	flex: 0 0 12em;
+	order: -1;
+
+}
+#middle{
+	flex: 1;
+}
+#right{
+	flex: 0 0 12em;
+}
+.parent {
+	width: 200px;
+	height: 150px;
+	background-color: black;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+}
+
+.child {
+	box-sizing: border-box;
+	background-color: white;
+	flex: 0 0 25%;
+	height: 50px;
+	border: 1px solid red;
+}
+@media (max-width: 768px) {
+	#body{
+		flex-direction: column;
+		flex: 1;
+	}
+	#left,#middle,#right{
+		flex: auto;
+	}
+}
